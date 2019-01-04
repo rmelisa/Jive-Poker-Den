@@ -1,0 +1,72 @@
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 95%;
+}
+
+.card {
+    margin: 0.5%;
+    width: 60px;
+    height: 100px;
+    border: 2px solid rgb(245, 240, 234);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(245, 240, 234);
+    box-shadow: 5px 10px rgb(4, 78, 50);
+}
+
+.redCard {
+    color: red;
+    font-size: 25px;
+}
+
+.blackCard {
+    color:black;
+    font-size: 25px;
+}
+
+.bottomCard {
+    padding-bottom: 3px;
+    text-align: left;
+    transform:rotate(180deg);
+}
+
+.title {
+    text-align: center;
+    color: rgb(245, 240, 234);
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.button {
+	display:block;
+	text-align:center;
+}
+
+button {
+  background-color: rgb(245, 240, 234);
+  border: none;
+  padding: 10px;
+  width: 100px;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  font-weight: bold;
+  color: rgb(4, 78, 50);
+}
+
+button:hover {
+    color: black;
+    
+}
+
+button:active {
+  box-shadow: 0 5px rgb(4, 78, 50);
+  transform: translateY(3px);
+}

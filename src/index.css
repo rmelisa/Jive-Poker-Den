@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:  "Helvetica Neue", sans-serif;
+  /* background-image: linear-gradient(to right,  rgb(151, 206, 206) , teal); */
+  background-image: linear-gradient(to right,  rgb(44, 155, 112) , rgb(4, 78, 50));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
